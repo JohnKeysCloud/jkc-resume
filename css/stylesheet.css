@@ -367,6 +367,17 @@ nav {
     max-width: 1200px;
   }
 
+  .main-section:hover::before {
+  transform: translateX(33px);
+  opacity: 1;
+  }
+
+  .main-section:hover::after {
+  opacity: 0.38;
+  transform: translateY(19px) translateX(988px) scale(1.3) rotate(270deg);
+  }
+
+
   #experience .experience-top {
     flex-direction: row;
     align-items: center;
