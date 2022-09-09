@@ -140,7 +140,7 @@ header {
   align-items: center;
 
   color: var(--clr-heading);
-  margin-bottom: 11px;
+  margin-bottom: 18px;
   padding: 0 min(55px, 8vw);
   padding-top: 33px;
 }
